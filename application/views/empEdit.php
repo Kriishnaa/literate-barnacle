@@ -38,7 +38,6 @@
                             <label for="Password">Employee Password*</label>
                             <input type="password" class="form-control" id="empPassword" name="empPassword" placeholder="Enter Password" value="<?php echo $emp_details['emp_password']; ?>" required="required" readonly="readonly">
                         </div>
-                        
                         <div class="form-group">
                             <label for="Mail">Employee Mail</label>
                             <input type="email" class="form-control" id="empMail" name="empMail" value="<?php echo $emp_details['emp_mail']; ?>" placeholder="Enter Mail">
